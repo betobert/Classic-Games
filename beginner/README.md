@@ -83,3 +83,28 @@ Use one or more of these prompts in Cursor:
 - *“Identify weak spots in the current design and propose refactors that improve testability or clarity.”*
 - *“Pick one Small feature and draft a task checklist with acceptance tests. Then implement it.”*
 - *“Write a short README ‘What I’d Do Next’ section summarizing potential upgrades.”*
+
+## What I'd Do Next: Feature Roadmap
+
+### 🚀 Quick Wins (Small Effort - 1-2 hours each)
+- **Game Statistics**: Track average attempts, total games, win rate
+- **Attempt Limits**: Add `--max-attempts` option for added tension  
+- **Sound Effects**: Console beeps for correct/wrong guesses
+
+### 🎯 Engagement Boosters (Medium Effort - 3-6 hours each)
+- **High Score System**: Persistent JSON file with top 10 scores
+- **Time-Based Scoring**: Include time penalties, add `--timed` mode
+- **Multiple Game Modes**: Reverse mode (computer guesses), Battle mode (2 players)
+- **Smart Hints**: Request hints with score penalties
+
+### 🌟 Major Expansions (Large Effort - 1-3 days each)
+- **Web GUI**: ASP.NET Core/Blazor interface with animations
+- **Multiplayer**: Online play, global leaderboards, friend challenges
+- **AI Opponent**: Computer players with different strategies and difficulty levels
+
+### 📋 Implementation Priority
+1. **Start Small**: Statistics → Attempt Limits → Sound Effects
+2. **Build Engagement**: High Scores → Time Scoring → Game Modes  
+3. **Scale Up**: Web GUI → Multiplayer → AI Opponents
+
+Each feature builds on the solid foundation while adding new dimensions of challenge and engagement!
