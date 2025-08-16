@@ -76,6 +76,9 @@ public class GameLoop
                     DisplayGameResult(status);
                     break;
                 }
+
+                // After bot's turn, continue the loop to show the board for human's next turn
+                // The current player should now be X (human's turn)
             }
             catch (ArgumentException ex)
             {
@@ -170,7 +173,7 @@ public class GameLoop
         
         for (int row = 0; row < 3; row++)
         {
-            Console.Write($" {row + 1} │");
+            Console.Write($"{row + 1} │");
             for (int col = 0; col < 3; col++)
             {
                 var cell = b[row, col];
